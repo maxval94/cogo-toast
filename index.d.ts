@@ -12,6 +12,7 @@ export type Options = Partial<{
 	heading: string;
 	role: string;
 	toastContainerID: string;
+	toastContainer: HTMLElement;
 	renderIcon: Function;
 	bar: Partial<{
 		size: string;
